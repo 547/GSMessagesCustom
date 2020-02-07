@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GSMessagesCustom'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '基于GSMessages添加了图片，以及设置图片相对位置的位置，以及自定义toast的背景颜色.'
 
 # This description is used to generate tags and improve search results.
@@ -40,4 +40,6 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  spec.swift_versions = "4.1"
 end
