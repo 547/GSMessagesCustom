@@ -41,5 +41,5 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   
-  spec.swift_versions = "4.1"
+  s.swift_versions = "4.1"
 end
