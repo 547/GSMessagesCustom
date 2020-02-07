@@ -1,0 +1,6 @@
+framework module GSMessagesCustom {
+  umbrella header "GSMessagesCustom-umbrella.h"
+
+  export *
+  module * { export * }
+}

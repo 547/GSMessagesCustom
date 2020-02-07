@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1016CF7383490C2648EF14CE /* Pods_GSMessagesCustom_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8178EF4182F265FC71422F /* Pods_GSMessagesCustom_Example.framework */; };
+		149DC00023ED573D00233E1C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149DBFFF23ED573D00233E1C /* TableViewController.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -29,11 +30,12 @@
 
 /* Begin PBXFileReference section */
 		0A24F46D36C5849466039373 /* Pods-GSMessagesCustom_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSMessagesCustom_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GSMessagesCustom_Tests/Pods-GSMessagesCustom_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		149DBFFF23ED573D00233E1C /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		34D1DFD34ED74451182A8E23 /* Pods_GSMessagesCustom_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSMessagesCustom_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B8178EF4182F265FC71422F /* Pods_GSMessagesCustom_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSMessagesCustom_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43852953336C2280CECDA11C /* Pods-GSMessagesCustom_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSMessagesCustom_Example.release.xcconfig"; path = "Target Support Files/Pods-GSMessagesCustom_Example/Pods-GSMessagesCustom_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4986B6EC7E48D44F245A5064 /* Pods-GSMessagesCustom_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSMessagesCustom_Tests.release.xcconfig"; path = "Target Support Files/Pods-GSMessagesCustom_Tests/Pods-GSMessagesCustom_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5178552299B1E19094968142 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5178552299B1E19094968142 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* GSMessagesCustom_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSMessagesCustom_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,8 +46,8 @@
 		607FACE51AFB9204008FA782 /* GSMessagesCustom_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSMessagesCustom_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		785F5C0E219E7C0537EFC007 /* GSMessagesCustom.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GSMessagesCustom.podspec; path = ../GSMessagesCustom.podspec; sourceTree = "<group>"; };
-		7F386E886468CEAB532C5F3D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		785F5C0E219E7C0537EFC007 /* GSMessagesCustom.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GSMessagesCustom.podspec; path = ../GSMessagesCustom.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7F386E886468CEAB532C5F3D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F2DE6693AE1BB606E51B7E8B /* Pods-GSMessagesCustom_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSMessagesCustom_Example.debug.xcconfig"; path = "Target Support Files/Pods-GSMessagesCustom_Example/Pods-GSMessagesCustom_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +104,7 @@
 		607FACD21AFB9204008FA782 /* Example for GSMessagesCustom */ = {
 			isa = PBXGroup;
 			children = (
+				149DBFFF23ED573D00233E1C /* TableViewController.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -156,7 +159,6 @@
 				0A24F46D36C5849466039373 /* Pods-GSMessagesCustom_Tests.debug.xcconfig */,
 				4986B6EC7E48D44F245A5064 /* Pods-GSMessagesCustom_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -304,15 +306,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-GSMessagesCustom_Example-checkManifestLockResult.txt",
 			);
@@ -326,15 +324,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-GSMessagesCustom_Tests-checkManifestLockResult.txt",
 			);
@@ -351,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				149DC00023ED573D00233E1C /* TableViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
